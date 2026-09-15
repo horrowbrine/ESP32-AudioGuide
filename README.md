@@ -14,6 +14,10 @@ DFPlayer Mini MP3模組
 在每個導覽地點各放置一個ESP32，並使用ESP32內建的網路功能設置網路Access Point(AP)；
 準備好的導覽語音mp3放入SD卡，將各個音檔取名為0001.mp3、0002.mp3等(也可以在後面加上英文名稱，但開頭一定要是**小於256的四碼數字**)，最後將SD卡格式化成FAT或FAT32格式後裝進去DFPlayer Mini就可以了。
 
+# DFPlayer Mini MP3模組接角
+<img width="641" height="379" alt="miniplayer_pin_map" src="https://github.com/user-attachments/assets/abc9518f-1bb7-4a95-98e5-995da95fec39" />
+
+
 # 程式碼說明
 ESP32_Set_AP:此程式碼給各個導覽地點的ESP32使用。用於設置AP名稱。
 
