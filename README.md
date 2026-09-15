@@ -18,4 +18,4 @@ ESP32至少兩個、DFPlayer Mini MP3模組、小容量SD卡、小喇叭(如果�
 # 程式碼說明
 ESP32_Set_AP:此程式碼給各個導覽地點的ESP32使用。用於設置AP名稱。
 
-RecivedMsgFromOtherESPAndPlayAudio:此程式會燒錄製使用者攜帶的ESP32。功能為根據當前ESP32可搜尋到的AP點，若AP名稱符合且訊號強度達到門檻，就會播放對應的導覽與英
+RecivedMsgFromOtherESPAndPlayAudio:此程式會燒錄製使用者攜帶的ESP32。功能為根據當前ESP32可搜尋到的AP點，若AP名稱符合且訊號強度達到門檻，就會播放對應的導覽語音。
