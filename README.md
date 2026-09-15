@@ -2,10 +2,7 @@
 使用ESP32(含Wifi功能)、DFPlayer模組、SD卡，製作簡易語音導覽的攜帶裝置
 
 所需設備:
-ESP32至少兩個
-DFPlayer Mini MP3模組
-小容量SD卡
-小喇叭(如果想要聲音大聲一點，可以另外購買Amplifier)
+ESP32至少兩個、DFPlayer Mini MP3模組、小容量SD卡、小喇叭(如果想要聲音大聲一點，可以另外購買Amplifier)
 
 # 整體系統架構
 使用者會攜帶一個包含ESP32、DFPlayer Mini MP3模組以及擴音器的裝置，當接近導覽地點時，使用者的裝置會自動發出該地點對應的導覽語音。
